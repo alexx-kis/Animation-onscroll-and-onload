@@ -69,4 +69,21 @@ html {
 	&__text {
 		margin-bottom: 20px;
 	}
+	&__copy-button {
+		border: 1px solid black;
+		width: 150px;
+		padding: 10px 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 10px;
+		margin-bottom: 10px;
+		cursor: pointer;
+		transition: all .5s;
+		background: rgb(246, 167, 70);
+		text-shadow: 1px 1px #242a30;
+		&:active {
+			transform: scale(.7);
+		}
+	}
 }

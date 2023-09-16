@@ -24,7 +24,10 @@
 				<div class="main__subtitle">
 					Animation onscroll
 				</div>
-				<pre class="code js">
+				<!-- <div class="main__copy-button" id="button-1" onclick="myFunction()">
+					COPY CODE
+				</div> -->
+				<pre class="code js" id="code-1">
 let animItems = document.querySelectorAll('.anim-item');
 
 if (animItems.length > 0) {
@@ -61,7 +64,10 @@ if (animItems.length > 0) {
 				<div class="main__subtitle">
 					Animation onscroll
 				</div>
-				<pre class="code js">
+				<!-- <div class="main__copy-button" id="button-2">
+					COPY CODE
+				</div> -->
+				<pre class="code js" id="code-2">
 window.onload = function () {
 	let loadings = document.querySelectorAll('.loading');
 						
@@ -109,7 +115,8 @@ window.onload = function () {
 		</main>
 
 	</div>
-
+	<input type="text" value="Hello World" id="myInput">
+	<button onclick="myFunction()">Copy text</button>
 	<script src="js/script.js"></script>
 </body>
 
